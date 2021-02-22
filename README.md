@@ -18,12 +18,14 @@ In case rover hits the obsticle response wil alert the user via response "Obstac
 
 # Regarding project
 
-At the project initiation the rover is set at 0,0 location facing north. After the startup the last location is stored in the static memory location and can be used for further command.
-Rover Position class stores the location of the rover. 
-Navigate class is created to evaluate the next rover position.
-ObstacleDetection class is created to throw obstacle response in case rover hits the obstacle location.
-ValidateCommand class is used to validate the input command sequence. 
-All the interfaces are injected to PlutoRoverController.cs.
+1. At the project initiation the rover is set at 0,0 location facing north. After the startup the last location is stored in the static memory location and can be used for next API command.
+2. Rover Position class stores the location of the rover. 
+3. Navigate class is created to evaluate the next rover position.
+4. ObstacleDetection class is created to throw obstacle response in case rover hits the obstacle location.
+5. ValidateCommand class is used to validate the input command sequence. 
+6. All the interfaces are injected to PlutoRoverController.cs.
+7. Unit test cases are present on NUnitTestProject project.
+8. Obstacle locations are stored in variable obstacleLocation in RoverPosition class.
 
 # C# development skills show case
 1. SOLID principles, Single responsibility principle, Interface design, Open closed principle.
