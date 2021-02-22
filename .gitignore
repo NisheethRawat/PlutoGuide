@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/NUnitTestProject/bin/Debug/netcoreapp3.1
+/NUnitTestProject/obj
+/PlutoGuide/.vs/PlutoGuide
+/PlutoGuide/bin/Debug/netcoreapp3.1
+/PlutoGuide/obj
